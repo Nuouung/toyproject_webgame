@@ -1,0 +1,31 @@
+body {
+  margin: 20px;
+}
+
+.characterCard {
+  width: 300px;
+  height: 300px;
+  margin: 30px;
+  border: 1px grey solid;
+
+  text-align: center;
+}
+
+.charInfo {
+  margin: 20px;
+}
+
+.hidden {
+  display: none;
+}
+
+.charMoreInfo {
+  width: 250px;
+  height: 250px;
+  border: 1px solid grey;
+
+  position: relative;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+}

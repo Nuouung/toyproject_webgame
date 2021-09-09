@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>제목을 기재해주십시오.</title>
+
+    <!--    구글폰트-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gowun+Batang&display=swap" rel="stylesheet">
+
+    <!--    css로의 링크-->
+    <link rel="stylesheet" href="css/style.css">
+
+
+
+    <style>
+        .Subject {
+            text-align: center;
+        }
+
+        .characterSheet {
+            border: 1px solid gray;
+            width: 300px;
+            height: 400px;
+
+            margin: auto;
+        }
+
+        .characterName {
+            font-size: 30px;
+            margin: 10px 10px 20px 10px;
+            text-align: center;
+        }
+
+        .characterBio {
+            text-align: center;
+
+            height: 250px;
+        }
+
+        .characterSummary {
+            margin-bottom: 20px;
+        =
+        }
+
+        .characterInfo {
+            text-align: center;
+            margin: 0 15px 10px 15px;
+
+        }
+
+        .characterButton {
+            width: 115px;
+
+            margin: auto;
+            display: block;
+            padding: 5px;
+        }
+    </style>
+</head>
+
+<body>
+
+<div class="characterSelect">
+    <h1 class="Subject"></h1>
+
+    <!--각각의 캐릭터시트/ 임동우-->
+    <div class="characterSheet">
+        <div class="characterName">
+            임동우
+        </div>
+        <div class="characterBio">
+            <div class="characterSummary">
+                남자, 24세, 대학생
+            </div>
+            <div class="characterInfo">
+                한국대학교 언론정보학과 2학년 학생입니다. 한국대학교 언론기관인 한국대언론사에서 활동하고 있습니다. 얼마전 언론사 동기들과의 술자리에서 최근 심심치않게 들려오는 끔찍한 도시괴담의 배후에
+                정부가 있을지도 모른다는 불길한 소문을 들었습니다.
+            </div>
+        </div>
+        <button class="characterButton" onclick="characterSelection(1)">캐릭터 선택</button>
+    </div>
+</div>
+
+
+<!--    Js로의 링크-->
+<script src="js/Javascript.js"></script>
+
+</body>
+</html>

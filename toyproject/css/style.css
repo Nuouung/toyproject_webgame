@@ -1,0 +1,64 @@
+@charset "utf-8";
+
+/*색상표. 내 대사: , 상대 대사1:*/
+
+
+* {
+    font-family: 'Gowun Batang', serif;
+}
+
+.nextButton {
+    width: 115px;
+
+    margin: 20px auto;
+    display: block;
+    padding: 5px;
+}
+
+.innerChapter {
+    text-align: center;
+    font-size: 25px;
+    border-bottom: solid 1px gray;
+
+    /*border: 1px solid gray;*/
+    width: 180px;
+    line-height: 50px;
+    display: block;
+    margin: 0 auto 35px auto;
+
+}
+
+.chapterButton {
+    background-color: inherit;
+
+    border: 1px solid gray;
+    padding: 10px 70px;
+
+
+    /*부모 태그에 속하지 않고 독립적인 배치 문법을 부여*/
+    position: absolute;
+
+    /*수평 가운데정렬, 수직 가운데정렬 명령*/
+    left: 50%;
+    top: 50%;
+
+    /*좌표값으로 태그의 (0,0)값(좌측상위 꼭지점)이 기준이므로 translate로 x축 y축을 이동하여 태그의 중앙이 기준이 되게 설정*/
+    transform: translate(-50%, -50%);
+}
+
+/*마우스를 올릴 때 chapter 버튼에 색을 부여한다.*/
+.chapterButton:hover {
+    background: #e7e7e7;
+}
+
+.choiceButton {
+    background-color: inherit;
+
+    border: 1px solid gray;
+    padding: 7px 40px;
+}
+
+/*마우스를 올릴 때 chapter 버튼에 색을 부여한다.*/
+.choiceButton:hover {
+    background: #e7e7e7;
+}

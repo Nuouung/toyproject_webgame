@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+
+  <link rel="stylesheet" type="text/css" href="css/style.css">
+  <!-- 전투 -->
+  <link rel="stylesheet" type="text/css" href="css/battle.css">
+</head>
+
+<body>
+  <div id="beforeBtn" class="">
+    <p>
+      벌떡. 여기가 어디지? 밖에서 들리는 함성소리, 눈 앞에 놓인 화장도구와 가발들. 어제의 일이 떠오른다.
+      분식집에서 떡볶이를 먹고 있었지 분명. 그러다 둔탁한 느낌과 함께 기절했어. 뒤에서 누군가 나를 공격한거야. 동아리회장의 짓이 틀림 없다.
+    </p>
+    <p>
+      그렇다면 이곳에 그 놈이 있다는 것이겠군. 동아리회장의 오른팔.. 분장사근육몬.. 김종국과 같은 우람한 몸으로 섬세하게 분장을 하는 그의 모습에 붙여진 별명이었지..
+    </p>
+    <p>
+      여장을 하고 공연에 나가라고 했었나? 미쳤군, 다들 단단히 미쳤어! 라고 대답하고 동아리 밖으로 나갔던 것인데, 나를 기절시키면서까지 여기에 데려오다니.. 정말 다들 미쳤군.
+    </p>
+    <p>
+      밖에서 사람 발자국 소리가 들린다. 근육몬... 네 녀석이군. 어떻게 탈출할까? 눈 앞에 두개의 아이템이 보인다.
+    </p>
+    <div>
+      <button type="button" id="magicHair">마법 걸린 가발을 쓰고 여자인 척 하자!</button>
+      <button type="button" id="feather">간질간질 깃털로 근육몬을 무찌르자!</button>
+    </div>
+  </div>
+
+  <!-- 이하는 버튼 눌렀을 때 나오는 사항 -->
+  <!-- 가발 버튼 -->
+  <!-- 깃털 버튼 -->
+  <div id="clickFeather" class="hidden">
+    <p>
+      간질간질 가루가 묻어 있는 극락의 깃털이다. 좋아, 이걸로 근육몸의 맨살을 가지럽히면 되겠어. 근육몬은 몸을 자랑하기 위해 몸이 드러나는 옷을 입으니까.. 그의 자부심이 이번에는 약점이 되겠군 흐흐흐..
+    </p>
+    <p>
+      "이봐 드디어 깨어났군! 공연이 얼마 남지 않았어, 얌전히 분장을 받을 준비하라구"
+    </p>
+    <p>
+      "훗 분장시킬 수 있으면 시켜봐라 근육몬! 전투다!!"
+    </p>
+    <!-- 전투 -->
+    <div class="battleField">
+      <span id="monsterStatus"></span>
+      <button type="button" id="buttonAttack">공격</button>
+      <button type="button" id="buttonDefense">방어</button>
+      <span id="showDamage"></span>
+      <span id="playerStatus"></span>
+      <span id="showDamagePlayer"></span>
+      <span id="doesDefenseSucceed"></span>
+    </div>
+  </div>
+
+  <script src="js/chapter1.js"></script>
+</body>
+
+</html>
